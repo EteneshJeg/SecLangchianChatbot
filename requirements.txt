@@ -16,5 +16,9 @@ cassio
 beautifulsoup4
 langchain_groq
 langchain_ollama
+bs4
+pypdf
+Chromadb
+faiss-cpu
 
 

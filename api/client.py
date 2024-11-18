@@ -2,7 +2,7 @@ import requests
 import streamlit as st 
 
 def get_ollama_response(input_text):
-    response=requests.post("http://localhost:8000/essay/invoke",
+    response=requests.post("https://eteneshgishamo07.vercel.app/",
     json={'input':{'topic':input_text}})
 
     return response.json()['output']
